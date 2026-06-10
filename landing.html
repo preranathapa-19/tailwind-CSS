@@ -1,88 +1,110 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>It girl from Pokhara</title>
-</head>
-<body>
+  </head>
+  <body>
+    <nav
+      class="flex justify-between items-center text-white px-10 py-6 absolute w-full"
+    >
+      <div class="text-xl font-bold">PERU</div>
 
-    <nav class="flex justify-between items-center text-white px-10 py-6 absolute w-full">
-        <div class="text-xl font-bold">
-            PERU
-        </div>
+      <ul class="flex space-x-6">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Blog</li>
+        <li>Contact US</li>
+      </ul>
 
-        <ul class="flex space-x-6">
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact US</li>
-        </ul>
-
-        <button class="bg-red-500 px-3 py-2 rounded-xl">
-            Contact Me
-        </button>
+      <button class="bg-red-500 px-3 py-2 rounded-xl hover:bg-pink-500">Contact Me</button>
     </nav>
 
-    <section class="h-[70vh] bg-[url('./images/mountains.jpg')] bg-cover bg-center flex items-center justify-center">
+    <section
+      class="h-[70vh] bg-[url('./images/mountains.jpg')] bg-cover bg-center flex items-center justify-center"
+    >
+      <div>
+       <div class="rounded-xl overflow-hidden w-44 h-36 object-contain "> <img src="./images/peru.jpg" class="  mx-auto  h-full w-full" /> </div>
 
-        <div class="text-center">
+        <h1 class="text-red-500 font-bold text-4xl mt-4">Prerana Thapa</h1>
 
-            <img src="./images/peru.jpg"
-                 class="w-44 h-44 rounded-3xl mx-auto">
-
-            <h1 class="text-red-500 font-bold text-4xl mt-4">
-                Prerana Thapa
-            </h1>
-
-            <h3 class="text-white">
-                A Creative Freelancer & Full Stack Developer
-            </h3>
-
-        </div>
-
+        <h3 class="text-white">A Creative Freelancer & Full Stack Developer</h3>
+      </div>
     </section>
 
-    <section class="bg-slate-800 py-8 px-6 flex pt-16 pb-16  ">
-        <img src="images/about.jpg" alt="prerena thapa magar"  class="h-80  pt-6 w-64 mx-12 ml-52">
-        <div class="mr-32 ">
-            <h2 class="text-red-500 text-xl">
-                Discover
-            </h2>
+    <section class="bg-slate-800 py-8 px-6 flex pt-16 pb-16">
+      <img
+        src="images/about.jpg"
+        alt="prerena thapa magar"
+        class="h-80 pt-6 w-64 mx-12 ml-52  "
+      />
+      <div class="mr-32">
+        <h2 class="text-red-400 text-xl">Discover</h2>
 
-            <h1 class="text-white text-3xl font-bold underline ">
-                About Me
-            </h1>
-            <p class="text-white mr-40 mt-5">My name is prerana thapa magar. I am freelance Full Stack Developer based on New York ,
-                 USA, and i'm very passionate to my work. with 4 year of exoperience as a professional Full Stack Developer, I have acquired the skill
-                 necessary to build great and premium websites.
-                </p>
-                <div class="flex gap-32 text-white box-content border-2 border-red-900  p-4 mt-5 mb-5 mr-40">
-                    <ul>
-                        <li>Name: Prerana Thapa</li>
-                        <li>phone:+123 4332563</li>
-                        <li>Experience: 4 year</li>
-                        <li>Stype: thapa.prerna</li>
-                    </ul>
-                     <ul>
-                        <li>Age:20</li>
-                        <li>Address: New York, USA</li>
-                        <li>Freelance: Available</li>
-                        <li>Email: pika@jn.com</li>
-                    </ul>
-                </div>
-                <button class= " bg-red-500 px-3 py-2 rounded-s-xl flex justify-end items-end ">DOWNLOAD CV</button>
+        <h1 class="text-white text-3xl font-bold underline">About Me</h1>
+        <p class="text-white mr-40 mt-5">
+          My name is prerana thapa magar. I am freelance Full Stack Developer
+          based on New York , USA, and i'm very passionate to my work. with 4
+          year of exoperience as a professional Full Stack Developer, I have
+          acquired the skill necessary to build great and premium websites.
+        </p>
+        <div
+          class="flex gap-32 text-white box-content border-2 border-red-400 p-4 mt-5 mb-5 mr-40"
+        >
+          <ul>
+            <li>Name: Prerana Thapa</li>
+            <li>phone:+123 4332563</li>
+            <li>Experience: 4 year</li>
+            <li>Stype: thapa.prerna</li>
+          </ul>
+          <ul>
+            <li>Age:20</li>
+            <li>Address: New York, USA</li>
+            <li>Freelance: Available</li>
+            <li>Email: pika@jn.com</li>
+          </ul>
         </div>
+        <button
+          class="bg-red-500 px-3 py-2 rounded-xl flex justify-end items-end hover:bg-pink-500" >
+          DOWNLOAD CV
+        </button>
+      </div>
     </section>
     <section class="bg-slate-900 h-96 ">
-        <div class="ml-16">
-            <h2 class="text-red-600 text-xl pt-10">What I Do</h2>
-            <h1 class="text-white text-3xl underline">My Services</h1>
+      <div class="ml-24">
+        <h2 class="text-red-400 text-xl pt-10">What I Do</h2>
+        <h1 class="text-white text-3xl underline">My Services</h1>
+      </div>
+      <div class="text-white grid grid-flow-col  pt-10  mx-36">
+        <div class="box-content border-2 border-red-400 text-center w-80 h-40 content-evenly">
+          <h2 class="font-bold text-xl pb-4">Creative Design</h2>
+          <p class="font-thin">
+            Crafting visually stunning and innovative designs that capture
+            attention, communicate ideas effectively, and create memorable
+            experiences.
+          </p>
         </div>
 
-    </section>
+        <div class="box-content border-2 border-red-400 text-center w-80 h-40 content-evenly">
+          <h2 class="font-bold text-xl pb-5">Branding</h2>
+          <p class="font-thin">
+            Developing unique brand identities that strengthen recognition,
+            build trust, and help businesses connect with their target audience.
+          </p>
+        </div>
 
-</body>
+        <div class="box-content border-2 border-red-400 text-center w-80 h-40 content-evenly ">
+          <h2 class="font-bold text-xl pb-4">User Interface</h2>
+          <p class="font-thin">
+            Designing intuitive and user-friendly interfaces that enhance
+            usability, improve interactions, and deliver engaging digital
+            experiences.
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
